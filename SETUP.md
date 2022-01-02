@@ -23,3 +23,9 @@ npx prisma db seed
 ```bash
 npx prisma studio
 ```
+
+## Generate resource
+
+```bash
+nest generate resource
+```
