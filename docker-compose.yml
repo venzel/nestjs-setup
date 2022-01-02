@@ -1,0 +1,12 @@
+version: '3'
+services:
+    auth-db-postgres:
+        image: postgres:11
+        container_name: nestjs-setup
+        restart: always
+        environment:
+            - POSTGRES_DB=nestjs-setup
+            - POSTGRES_USER=admin
+            - POSTGRES_PASSWORD=123456
+        ports:
+            - 5432:5432
