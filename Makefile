@@ -17,3 +17,8 @@ down:
 
 logs:
 	docker-compose logs -f
+
+.PHONY: seed
+
+seed:
+	npm run seed

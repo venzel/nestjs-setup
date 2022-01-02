@@ -1,0 +1,51 @@
+export const products = [
+    {
+        name: 'Playstation 2',
+        description: 'Playsstation 2 completo, versao nova.',
+        price: 549.99,
+        sku: 'sku_playstation_2_x40',
+        published: true,
+    },
+    {
+        name: 'Teclado gamer x3',
+        description: 'Teclado gamer multilaser.',
+        price: 629.95,
+        sku: 'sku_teclado_gamer_multi',
+        published: true,
+    },
+    {
+        name: 'Mouse x7',
+        description: 'Bola de mouse esquerdo, para fisioterapeutas.',
+        price: 550.95,
+        sku: 'sku_bola_mouse',
+        published: true,
+    },
+    {
+        name: 'Controle PS2',
+        description: 'Controle PS2 para gamers.',
+        price: 570.11,
+        sku: 'sku_controle_ps2',
+        published: false,
+    },
+    {
+        name: 'Headset v3',
+        description: 'Headset v3 linha venon.',
+        price: 79.0,
+        sku: 'sku_headset_v3',
+        published: true,
+    },
+    {
+        name: 'Capa para mouse',
+        description: 'Capa para mouse de todas as cores.',
+        price: 159.49,
+        sku: 'sku_capa_mouse',
+        published: true,
+    },
+    {
+        name: 'Impressora 3D Canon',
+        description: 'Impressora jato de tinta canon 3d.',
+        price: 229.0,
+        sku: 'sku_impressora_canon',
+        published: false,
+    },
+];
