@@ -8,3 +8,5 @@
 -   @nestjs/swagger
 -   @prisma/client
 -   prisma -D
+-   winston
+-   nest-winston
