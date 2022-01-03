@@ -1,4 +1,4 @@
-# NestJs setup
+# NestJs with Prisma
 
 ## Modules
 
@@ -10,6 +10,7 @@
 -   prisma -D
 -   winston
 -   nest-winston
+-   @devoxa/prisma-relay-cursor-connection
 
 ## Prisma codes erros
 

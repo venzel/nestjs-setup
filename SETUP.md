@@ -12,6 +12,12 @@ npx prisma init --datasource-provider postgresql
 npx prisma migrate dev --name product
 ```
 
+## Execute push
+
+```bash
+npx prisma db push
+```
+
 ## Execute seed
 
 ```bash

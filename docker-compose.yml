@@ -1,11 +1,11 @@
 version: '3'
 services:
-    auth-db-postgres:
+    postgres:
         image: postgres:11
-        container_name: nestjs-setup
+        container_name: nestjs-with-prisma
         restart: always
         environment:
-            - POSTGRES_DB=nestjs-setup
+            - POSTGRES_DB=nestjs-with-prisma
             - POSTGRES_USER=admin
             - POSTGRES_PASSWORD=123456
         ports:

@@ -11,7 +11,14 @@ async function bootstrap() {
 
     const app = await NestFactory.create(AppModule, { logger });
 
-    app.useGlobalPipes(new ValidationPipe());
+    app.useGlobalPipes(
+        new ValidationPipe({
+            transform: true,
+            transformOptions: {
+                enableImplicitConversion: true,
+            },
+        })
+    );
 
     app.useGlobalInterceptors(new ClassSerializerInterceptor(app.get(Reflector)));
 
