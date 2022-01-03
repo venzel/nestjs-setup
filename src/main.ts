@@ -3,11 +3,14 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { WinstonModule } from 'nest-winston';
 import { AppModule } from './modules/app.module';
 import { winstonConfig } from './configs/winston.config';
+import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
     const logger = WinstonModule.createLogger(winstonConfig);
 
     const app = await NestFactory.create(AppModule, { logger });
+
+    app.useGlobalPipes(new ValidationPipe());
 
     const config = new DocumentBuilder()
         .setTitle('NestJs setup')
