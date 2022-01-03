@@ -29,3 +29,9 @@ npx prisma studio
 ```bash
 nest generate resource
 ```
+
+## Generate prisma exceptions
+
+```bash
+nest generate filter prisma-client-exception
+```

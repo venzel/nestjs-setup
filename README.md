@@ -1,6 +1,6 @@
 # NestJs setup
 
-# Modules
+## Modules
 
 -   class-transformer
 -   class-validator
@@ -10,3 +10,7 @@
 -   prisma -D
 -   winston
 -   nest-winston
+
+## Prisma codes erros
+
+https://www.prisma.io/docs/reference/api-reference/error-reference#prisma-client-query-engine
